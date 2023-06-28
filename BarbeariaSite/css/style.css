@@ -1,0 +1,624 @@
+
+/* #region global */
+
+/* reset */
+
+* {
+
+
+
+
+    padding: 0;
+
+    margin: 0;
+
+    border-style: border-box;
+
+
+
+
+}
+
+
+
+
+:root {
+
+
+
+
+    --font-default: 'Lato', sans-serif;
+
+    scroll-behavior: smooth;
+
+
+
+
+}
+
+
+
+
+/* colors */
+
+:root {
+
+
+
+
+    --color-default: rgba(0, 0, 0, 0.4);
+
+    --color-primary: rgba(0, 0, 0, 0.4);
+
+    --color-secondary: rgba(0, 0, 0, 0.4);
+
+    --color-terciary: rgba(0, 0, 0, 0.4);
+
+
+
+
+}
+
+
+
+
+/* sizes */
+
+
+
+
+:root {
+
+
+
+
+    font-size: 14px;
+
+    --title-default: 4em;
+
+    --subtitle-default: 2.5em;
+
+    --paragraph-default: 1.5em;
+
+    --anchor-default: 1.2em;
+
+
+
+
+}
+
+
+
+
+body {
+
+
+
+
+    font-family: var(--font-default);
+
+    color: var(--color-primary);
+
+    height: auto;
+
+
+
+
+}
+
+
+
+
+h1 {
+
+
+
+
+    font-size: var(--title-default);
+
+
+
+
+}
+
+
+
+
+h2 {
+
+
+
+
+    font-size: var(--subtitle-default);
+
+    font-weight: 600;
+
+
+
+
+
+}
+
+
+
+
+/* hr {
+
+
+
+
+    width: 5em;
+
+    height: .5em;
+
+    background-color: var(--color-primary);
+
+    border: none;
+
+
+
+
+} */
+
+
+
+
+a {
+
+
+
+
+    color: var(--color-secondary) !important;
+
+    font-size: var(--anchor-default) !important;
+
+    text-decoration: none;
+
+    transition: all .3s;
+
+    font-weight: 600 !important;
+
+
+
+
+}
+
+
+
+
+a:hover {
+
+
+
+
+    color: var(--color-primary) !important;
+
+    font-weight: 600 !important;
+
+    transition: all .3s;
+
+
+
+
+
+}
+
+
+
+
+ul,
+
+ol {
+
+
+
+
+    list-style: none;
+
+
+
+
+}
+
+
+
+
+section {
+
+
+
+
+    padding: 10em 0;
+
+    overflow: hidden;
+
+
+
+
+}
+
+
+
+
+/* #endregion */
+
+
+
+
+/*#region Navbar*/
+
+
+
+
+.Navbar {
+
+
+
+
+    background-color: rgb(248, 244, 0);
+
+    height: 10% !important;
+
+
+
+
+}
+
+
+
+
+.nav-item {
+
+
+
+
+    padding-right: 20em;
+
+    padding-top: 0.8em;
+
+
+
+
+}
+
+
+
+
+.dropdown {
+
+
+
+
+    position: absolute;
+
+    float: left;
+
+    padding-left: 103rem !important;
+
+    top: 0;
+
+    padding-top: 1em;
+
+    width: 1px;
+
+    height: 1px;
+
+
+
+
+}
+
+
+
+
+.navbar-linha {
+
+
+
+
+    width: 1px;
+
+    height: 3%;
+
+    position: absolute;
+
+    left: 85%;
+
+    color: black;
+
+    background-color: rgb(0, 0, 0);
+
+
+
+
+}
+
+
+
+
+.whatsapp i {
+
+
+
+
+    position: absolute;
+
+    float: left;
+
+    top: 0%;
+
+    padding-left: 49em;
+
+    font-size: 2em;
+
+    padding-top: 10px;
+
+    width: 1px;
+
+    height: 1px;
+
+
+
+
+
+
+}
+
+
+
+
+.instagram i {
+
+
+
+
+    position: absolute;
+
+    float: left;
+
+    top: 0%;
+
+    padding-left: 51em;
+
+    font-size: 2em;
+
+    padding-top: 10px;
+
+    width: 1px;
+
+    height: 1px;
+
+
+
+
+}
+
+
+
+
+
+.facebook i {
+
+
+
+
+    position: absolute;
+
+    float: left;
+
+    top: 0%;
+
+    padding-left: 53em;
+
+    font-size: 2em;
+
+    padding-top: 10px;
+
+    width: 1px;
+
+    height: 1px;
+
+
+
+
+
+}
+
+
+
+
+.social-links {}
+
+
+
+
+/*#endregion*/
+
+
+
+
+/*#region home*/
+
+
+
+
+#home {
+
+
+
+
+    position: relative;
+
+    padding-top: 0em;
+
+
+
+
+}
+
+
+
+
+
+.home-container video {
+
+
+
+
+    width: 100%;
+
+}
+
+
+
+
+.home-inner {
+
+
+
+
+    position: absolute;
+
+    color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    top: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    text-align: center;
+
+    padding-bottom: 10em;
+
+}
+
+
+
+
+
+/*#endregion*/
+
+
+
+
+/*#region gallery*/
+
+
+
+
+#gallery p{
+
+    font-size: var(--paragraph-default);
+
+  }
+
+ 
+
+  .gallery-container {
+
+    width: 100%;
+
+    display: flex;
+
+  }
+
+ 
+
+  .item{
+
+    border:0;
+
+  }
+
+ 
+
+  .gallery-container img {
+
+    width: 100%;
+
+    height: auto;
+
+    filter: saturate(0%);
+
+   margin-bottom: 1.3em;
+
+  }
+
+ 
+
+  .gallery-container img:hover {
+
+    transition: all .5s;
+
+    filter: saturate(100%);
+
+  }
+
+ 
+
+  .filter {
+
+    width: 100%;
+
+    text-align: center;
+
+    padding: 2em;
+
+  }
+
+ 
+
+  .filter li {
+
+    display: inline;
+
+    padding: 10px 25px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    text-transform: capitalize;
+
+    letter-spacing: .2em;
+
+    transition: all .5s;
+
+  }
+
+ 
+
+  .filter li:hover {
+
+    background-color:var(--color-primary);
+
+    color: var(--color-secondary);
+
+    transition: all .5s;
+
+    border-radius: 5px;
+
+  }
+
+ 
+
+  .filter li.active {
+
+    background-color:var(--color-primary);
+
+    color: var(--color-secondary);
+
+    border-radius: 5px;
+
+  }
+
+ 
+
+ 
